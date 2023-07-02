@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		AEC58E502A50F649005A6204 /* UdemyFoodAppsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC58E4F2A50F649005A6204 /* UdemyFoodAppsApp.swift */; };
-		AEC58E522A50F649005A6204 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC58E512A50F649005A6204 /* ContentView.swift */; };
+		AEC58E522A50F649005A6204 /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC58E512A50F649005A6204 /* Anasayfa.swift */; };
 		AEC58E542A50F64B005A6204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC58E532A50F64B005A6204 /* Assets.xcassets */; };
 		AEC58E572A50F64B005A6204 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC58E562A50F64B005A6204 /* Preview Assets.xcassets */; };
+		AEC58E5E2A50F6EA005A6204 /* Foods.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC58E5D2A50F6EA005A6204 /* Foods.swift */; };
+		AEC58E602A50FC67005A6204 /* FoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC58E5F2A50FC67005A6204 /* FoodDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AEC58E4C2A50F649005A6204 /* UdemyFoodApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UdemyFoodApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC58E4F2A50F649005A6204 /* UdemyFoodAppsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdemyFoodAppsApp.swift; sourceTree = "<group>"; };
-		AEC58E512A50F649005A6204 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AEC58E512A50F649005A6204 /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
 		AEC58E532A50F64B005A6204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEC58E562A50F64B005A6204 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AEC58E5D2A50F6EA005A6204 /* Foods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foods.swift; sourceTree = "<group>"; };
+		AEC58E5F2A50FC67005A6204 /* FoodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				AEC58E4F2A50F649005A6204 /* UdemyFoodAppsApp.swift */,
-				AEC58E512A50F649005A6204 /* ContentView.swift */,
+				AEC58E512A50F649005A6204 /* Anasayfa.swift */,
+				AEC58E5F2A50FC67005A6204 /* FoodDetailView.swift */,
+				AEC58E5D2A50F6EA005A6204 /* Foods.swift */,
 				AEC58E532A50F64B005A6204 /* Assets.xcassets */,
 				AEC58E552A50F64B005A6204 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC58E522A50F649005A6204 /* ContentView.swift in Sources */,
+				AEC58E5E2A50F6EA005A6204 /* Foods.swift in Sources */,
+				AEC58E602A50FC67005A6204 /* FoodDetailView.swift in Sources */,
+				AEC58E522A50F649005A6204 /* Anasayfa.swift in Sources */,
 				AEC58E502A50F649005A6204 /* UdemyFoodAppsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
